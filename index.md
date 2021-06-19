@@ -11,7 +11,7 @@ Click my name to navigate back to this home page.
 <img src="images/StartScreen.png"/>
 
 ---
-[Project:Triple G Coach Service](/TripleG)
+[Project:Triple G Coach Service](/TripleGPage)
 <img src="images/TripleGHome.png"/>
 
 ---
