@@ -31,6 +31,11 @@ Click my name to navigate back to this home page.
 
 ---
 
+[Project: Salary prediction](/MLSalaryPrediction)
+<img src="images/MLSelfWrittenExample.png"/>
+
+---
+
 [Poject: Bundle of Small Projects](/SmallProjectsPage)
 
 This page includes small projects put together
