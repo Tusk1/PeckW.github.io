@@ -9,7 +9,7 @@
 <img src="images/StartScreen.png"/>
 
 ---
-[Project:Triple G Coach Service](/pdf/sample_presentation.pdf)
+[Project:Triple G Coach Service](/TripleG)
 <img src="images/TripleGHome.png"/>
 
 ---
