@@ -4,7 +4,7 @@
 
 ### 1. Overview
 
-The code is hand written to help practise the development and design of building a machine learning AI. Built in visual studio modeled off the microsoft machine learning kit.
+The code is hand written to help practise the development and design of building a machine learning AI. Built in visual studio modeled off the microsoft machine learning kit. Greater sample size would be required to increase the accuracy of the results. This project was a valuable learning experience.
 
 ### 2. Result
 
