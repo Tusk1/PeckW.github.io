@@ -1,6 +1,6 @@
 ## Presented here are various small projects
 
-**Project description:** Presented here are small projects which have been developed for learning experiences. 
+Presented here are small projects which have been developed for learning experiences. 
 
 ### 1. Numerical Spinner
 Developed in C# + Xamarin. A simple numerical spinner for number selection.
