@@ -10,7 +10,7 @@
 
 ---
 [Project:Triple G Coach Service](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/TripleGHome.png"/>
 
 ---
 [Project: Type 1 Diabetes Management Console Applicaiton](http://example.com/)
