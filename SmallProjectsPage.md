@@ -4,8 +4,9 @@
 
 ### 1. Numerical Spinner
 Developed in C# + Xamarin. A simple numerical spinner for number selection.
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+<img src="images/NS1.png"/>
+<img src="images/NS2.png"/>
 
 ```C#
 namespace Spinner_1
