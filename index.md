@@ -32,4 +32,5 @@ Click my name to navigate back to this home page.
 ---
 
 [Poject: Bundle of Small Projects](/SmallProjectsPage)
+
 This page includes small projects put together
