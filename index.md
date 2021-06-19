@@ -1,5 +1,5 @@
-##Welcome! I am an aspiring programmer aiming to develop my skills. Currently finishing an MSc in Computing Systems.
-  Looking for work or placement opportunities starting in september within game programming / software development / software engineering / software programming.
+## Welcome! I am an aspiring programmer aiming to develop my skills. Currently finishing an MSc in Computing Systems.
+## Looking for work or placement opportunities starting in september within game programming / software development / software engineering / software programming.
 
 ---
 
