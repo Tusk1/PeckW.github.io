@@ -1,11 +1,25 @@
-title: John Doe # your name (or website title) here
+title: William Peck # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Welcome! I am an aspiring programmer aiming to develop my skills. Currently finishing an MSc in Computing Systems.
+  Looking for work / placement opportunities starting in september.
   <br><br>
-  Second description 
+  Below lists my experiences and skillset.
+  
+  Languages: 
+  C#, C++, JavaScript, Python, Xamarin
+  
+  Development Environment:
+  Visual Studio, Andriod Studio, Unity, PyCharm, SQL Server Management Studio, Google Firebase
+  
+  AI:
+  TensorFlow, CNTK, ML Kit, PyTorch
+  
+  Source Control:
+  Github, TortoiseSVN, Github Enterprise
+  
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="www.linkedin.com/in/william-peck-1006">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
