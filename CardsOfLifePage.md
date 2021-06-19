@@ -1,16 +1,11 @@
-## Cards Of Life - CodeRED
+## Cards Of Life
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** The project was based off a CodeRED scenario presented as a method to reduce early school leaving. Done via the use of game-based learning through creation of a serious game which can present the users with information required on different topics. The project was also documented including design matrix, storyboard, detail of game design. (To view this documentation please ask)
 
 ### 1. Game Overview
+The game was developed in Unity using C#. Models were created low-poly in blender. Animations for the player model were created in blender. Animations in the environment are created inside Unity.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
+The gameplay is designed to present topics which may be unconfortable to talk about, ask the user if they are having problems relating to this topic and then present them with information which could help. The game acheives this by presenting a journey or "tour" through an art gallery, where the exhibits in each room represent a topic. Users interact with the exhibit sign to get a close up view and be asked a statement question. The users answer will change what artwork is presented when finishing the tour.
 
 ### 2. Gameplay examples
 
@@ -22,12 +17,108 @@ if (isAwesome){
 <img src="images/InGame6.png"/>
 
 
-### 3. Design implementations 
+### 3. Code Snippets
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+Audio Control
+```C#
+public class BackgroundAudio : MonoBehaviour
+{
+    private BackgroundAudio instance = null;
 
-### 4. Provide a basis for further data collection through surveys or experiments
+    private BackgroundAudio Instance
+    {
+        get { return instance; }
+    }
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+    private void Awake()
+    {
+        if(instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+        else
+        {
+            instance = this;
+        }
+        //Use for music on different scenes.
+        //DontDestroyOnLoad(this.gameObject);
+    }
+}
+```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Options Menu Implementation
+```C#
+public class OptionsMenuButton : MonoBehaviour
+{
+    public GameObject VolumeControl;
+    public GameObject ResolutionControl;
+    public GameObject QualityControl;
+    public GameObject FullScreenControl;
+
+    public bool visible;
+
+    public void TurnOnOrOffOptions()
+    {
+        if(visible == true)
+        {
+            visible = false;
+
+            VolumeControl.SetActive(false);
+            ResolutionControl.SetActive(false);
+            QualityControl.SetActive(false);
+            FullScreenControl.SetActive(false);
+        }
+
+
+
+        else if (visible == false)
+        {
+            visible = true;
+
+            VolumeControl.SetActive(true);
+            ResolutionControl.SetActive(true);
+            QualityControl.SetActive(true);
+            FullScreenControl.SetActive(true);
+        }
+    }
+}
+```
+
+Player Movement
+```C#
+public class ThirdPersonMovement : MonoBehaviour
+{
+
+    public CharacterController controller;
+    Animator anim;
+
+    public float speed = 6f;
+
+    public float turnSmoothTime = 0.1f;
+    float turnSmootherVelocity;
+
+
+    // Update is called once per frame
+    void Update()
+    {
+        float horizontal = Input.GetAxisRaw("Horizontal");
+
+        float vertical = Input.GetAxisRaw("Vertical");
+
+        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+
+        if(direction.magnitude >= 0.1f)
+        {
+            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
+            //Atan2 is a math function, which returns the angle between the x and y axis 
+
+            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmootherVelocity, turnSmoothTime);
+
+            transform.rotation = Quaternion.Euler(0f, angle, 0f);
+
+            controller.Move(direction * speed * Time.deltaTime);
+        }
+    }
+}
+```
