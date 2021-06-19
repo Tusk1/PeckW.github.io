@@ -3,6 +3,8 @@ Welcome! I am an aspiring programmer aiming to develop my skills. Currently fini
 
 Click my name to navigate back to this home page.
 
+Select a project to get a more detailed view. 
+
 ---
 
 ### Projects
