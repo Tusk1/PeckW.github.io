@@ -1,6 +1,7 @@
 title: William Peck # your name (or website title) here
 logo: "/images/Photo_Me.jpg" # your photo (or logo) here
-description: Below lists my experiences and skillset. > # your text below (remove <br> elements if you don't need line breaks)
+description: > # your text below (remove <br> elements if you don't need line breaks)
+Below lists my experiences and skillset.
   <br><br>
     
   Languages: 
