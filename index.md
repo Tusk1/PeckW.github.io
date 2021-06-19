@@ -5,7 +5,7 @@
 
 ### Projects
 
-[Project: Cards Of Life](/sample_page)
+[Project: Cards Of Life](/CardsOfLifePage)
 <img src="images/StartScreen.png"/>
 
 ---
