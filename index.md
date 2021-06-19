@@ -6,7 +6,7 @@
 ### Projects
 
 [Project: Cards Of Life](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/StartScreen.png"/>
 
 ---
 [Project:Triple G Coach Service](/pdf/sample_presentation.pdf)
