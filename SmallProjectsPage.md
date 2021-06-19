@@ -42,17 +42,17 @@ namespace Spinner_1
 ```
 
 ### 2. Loading Bars
-Star Loading Bar (Animated) C#
+Star Loading Bar (Animated) C# + Xamarin
 
 <img src="images/LBStarAnim.png"/>
-<img src="images/LBStarAnim.png"/>
-<img src="images/LBStarAnim.png"/>
+<img src="images/LBStarAnimCode1.png"/>
+<img src="images/LBStarAnimCode2.png"/>
 
 
-Infinity Loading Bar (Animated) C#
+Infinity Loading Bar (Animated) C# + Xamarin
 
 <img src="images/LBInfinityAnim.png"/>
-<img src="images/LBInfinityAnim.png"/>
-<img src="images/LBInfinityAnim.png"/>
+<img src="images/LBInfinityAnimCode1.png"/>
+<img src="images/LBInfinityAnimCode2.png"/>
 
 
