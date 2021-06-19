@@ -8,7 +8,7 @@ The code is hand written to help practise the development and design of building
 
 ### 2. Result
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/MLSelfWrittenExample.png"/>
 
 ### 3. Code Examples
 
