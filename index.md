@@ -15,7 +15,7 @@ Click my name to navigate back to this home page.
 <img src="images/TripleGHome.png"/>
 
 ---
-[Project: Type 1 Diabetes Management Console Applicaiton](http://example.com/)
+[Project: Type 1 Diabetes Management Console Applicaiton](/DMConsoleAppPage)
 <img src="images/DMConsoleHomePage.png"/>
 
 ---
