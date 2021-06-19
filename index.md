@@ -29,19 +29,7 @@ Click my name to navigate back to this home page.
 [Project: Glucio](/GlucioPage)
 <img src="images/GlucioStart.png"/>
 
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
 ---
 
-
-
-
----
-
-<!-- Remove above link if you don't want to attibute -->
+[Poject: Bundle of Small Projects](/SmallProjectsPage)
+This page includes small projects put together
