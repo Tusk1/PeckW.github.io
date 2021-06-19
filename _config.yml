@@ -2,18 +2,23 @@ title: William Peck # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Welcome! I am an aspiring programmer aiming to develop my skills. Currently finishing an MSc in Computing Systems.
-  Looking for work / placement opportunities starting in september.
+  Looking for work / placement opportunities starting in september. Below lists my experiences and skillset.
   <br><br>
-  Below lists my experiences and skillset.
-  
+    
   Languages: 
   C#, C++, JavaScript, Python, Xamarin
+  
+  <br><br>
   
   Development Environment:
   Visual Studio, Andriod Studio, Unity, PyCharm, SQL Server Management Studio, Google Firebase
   
+  <br><br>
+  
   AI:
   TensorFlow, CNTK, ML Kit, PyTorch
+  
+  <br><br>
   
   Source Control:
   Github, TortoiseSVN, Github Enterprise
