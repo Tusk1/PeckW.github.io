@@ -20,6 +20,9 @@ Click my name to navigate back to this home page.
 
 ---
 
+[Project: Cube'd](/CubedPage)
+<img src="images/DMConsoleHomePage.png"/>
+
 ### Category Name 2
 
 - [Project 1 Title](http://example.com/)
