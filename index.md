@@ -21,7 +21,7 @@ Click my name to navigate back to this home page.
 ---
 
 [Project: Cube'd](/CubedPage)
-<img src="images/DMConsoleHomePage.png"/>
+<img src="images/CubeStartScreen.png"/>
 
 ### Category Name 2
 
